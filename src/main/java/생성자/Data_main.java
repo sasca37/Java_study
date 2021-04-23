@@ -7,6 +7,7 @@ public class Data_main {
 		System.out.println(data1.toString());
 		Data data2 = new Data("sasca",20);
 		System.out.println(data2.toString());
+		//asd
 	}
 
 }
