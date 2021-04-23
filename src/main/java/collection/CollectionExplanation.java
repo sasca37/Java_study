@@ -1,7 +1,7 @@
 package collection;
 
 
-public class 컬렉션설명 {
+public class CollectionExplanation {
 	/*
 	 컬렉션 프레임워크 - 인터페이스 
 	 1. Collection 

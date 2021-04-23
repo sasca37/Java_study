@@ -1,4 +1,4 @@
-package 생성자;
+package constructor;
 
 public class Data_main {
 

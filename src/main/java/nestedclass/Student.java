@@ -1,4 +1,4 @@
-package 중첩클래스;
+package nestedclass;
 
 public class Student {
 

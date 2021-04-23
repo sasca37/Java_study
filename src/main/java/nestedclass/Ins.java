@@ -1,4 +1,4 @@
-package 중첩클래스;
+package nestedclass;
 // 중첩클래스 : 클래스 내부에 클래스가 있는 경우 
 // 1. 인스턴스, 지역, 익명, 정적 
 public class Ins {

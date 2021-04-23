@@ -1,6 +1,6 @@
-package 객체;
+package object;
 
-public class 설명 {
+public class Explanation {
 	
 /*
  상수 : 변하지 않는 수 (final 사용) 
@@ -33,7 +33,7 @@ var a = 10; 지역 변수인 타입추론변수는 클래스 구간에선 사용
 		
 	}
 	//생성자 영역 시작 
-	public 설명() {
+	public Explanation() {
 		
 	}
 }
