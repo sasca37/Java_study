@@ -1,10 +1,11 @@
 package nestedclass;
-// 중첩클래스 : 클래스 내부에 클래스가 있는 경우 
-// 1. 인스턴스, 지역, 익명, 정적 
-public class Ins {
-//1. 인스턴스 중첩 내부 클래스 
+/* 1. 인스턴스 내부 클래스 
+ 중첩클래스 : 클래스 내부에 클래스가 있는 경우 (외부클래스의 멤버 클래스로 멤버 변수와 같은 레벨 )*/
+
+public class Instance {
+
 	String name;
-	public Ins(String name) {
+	public Instance(String name) {
 		this.name = name;
 	}
 	public class Score {
