@@ -1,6 +1,7 @@
 package practice;
 
 public class 가변인자 {
+	// ㅎㅇ
 	// 가변인자는 1개만 가능 , 인자가 여러개일 경우 항상 마지막에 가변인자를 넣어야한다.
 	public static int total = 0;
 	public static void main(String[] args) {
