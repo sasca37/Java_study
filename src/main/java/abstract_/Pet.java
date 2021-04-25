@@ -1,8 +1,9 @@
 package abstract_;
 
+// run 에서 abstract를 선언했기 때문에 class앞에 abstract 붙임 ( 한개 이상일 시 클래스에 붙임)
 public abstract class Pet {
-	private boolean wing;
-	private int legCount;
+	private boolean wing; //날개 여부 
+	private int legCount; // 다리 개수 
 	
 	public String isWing() {
 		String str;
@@ -20,6 +21,6 @@ public abstract class Pet {
 		this.wing = wing;
 		this.legCount = legCount;
 	}
-	
+	//추상 메서드 끝에 ; 
 	public abstract void run(String name);
 }

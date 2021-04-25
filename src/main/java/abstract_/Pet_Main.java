@@ -9,7 +9,7 @@ public class Pet_Main {
 		Pet parrot = new Parrot(true, 2);
 		parrot.run(getPetName(parrot));
 		
-		Parrot pr = (Parrot) parrot;
+		Parrot pr = (Parrot) parrot; //다운캐스팅 
 		pr.fly(getPetName(parrot));
 	}
 
