@@ -6,7 +6,9 @@ import java.util.List;
 public class ArrayList_Prac {
 
 	public static void main(String[] args) {
-	
+		
+		// add, set(교체), remove , get , size  
+		
 		List<String> arr = new ArrayList();
 		arr.add("a");
 		arr.add("a");
@@ -20,9 +22,10 @@ public class ArrayList_Prac {
 		String st2 =" g";
 		String st3 =" g";
 		String st14=" g";
-		for(String t : arr) {
-			System.out.println(t);
-		}
+		System.out.println(arr);
+		/*
+		 * for(String t : arr) { System.out.println(t); }
+		 */
 	}
 
 }

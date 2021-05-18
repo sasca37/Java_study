@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import lombok.var;
+
 public class Map_Prac {
 
 	public static void main(String[] args) {
