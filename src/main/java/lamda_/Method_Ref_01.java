@@ -2,6 +2,7 @@ package lamda_;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 public class Method_Ref_01 {
 	/*
@@ -19,12 +20,24 @@ public class Method_Ref_01 {
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 		list.forEach(Writer::doWrite);
 		list.forEach(x -> Writer.doWrite(x));
+		
+		Function<String, String> helloLambda  = (name) -> HelloTo.hello(name);
+		Function<String,String>helloStatic = HelloTo::hello;
+		
+		System.out.println("\n"+helloLambda.apply("a"));
+		System.out.println(helloStatic.apply("b"));
 	}
 
 }
 
 class Writer {
 	public static void doWrite(Object msg) {
-		System.out.println(msg);
+		System.out.print(msg);
+	}
+}
+
+class HelloTo {
+	public static String hello(String name) {
+		return "Hello ~ " +name;
 	}
 }
